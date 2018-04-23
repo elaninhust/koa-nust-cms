@@ -1,0 +1,34 @@
+{
+  "name": "koa-nuxt-cms",
+  "version": "1.0.0",
+  "description": "koa-nuxt-cms-rebuild",
+  "author": "tanfan <tanfan@luojilab.com>",
+  "license": "ISC",
+  "private": true,
+  "scripts": {
+    "nuxt": "nuxt",
+    "dev": "export NODE_ENV=development && export PORT=2018 && node server.js",
+    "build": "nuxt build",
+    "start": "nuxt start",
+    "generate": "nuxt generate",
+    "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
+    "precommit": "npm run lint"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/elaninhust/koa-nust-cms.git"
+  },
+  "dependencies": {
+    "koa": "^2.5.0",
+    "koa-body": "^2.5.0",
+    "koa-connect": "^2.0.1",
+    "nuxt": "^1.0.0"
+  },
+  "devDependencies": {
+    "babel-eslint": "^8.2.1",
+    "eslint": "^4.15.0",
+    "eslint-friendly-formatter": "^3.0.0",
+    "eslint-loader": "^1.7.1",
+    "eslint-plugin-vue": "^4.0.0"
+  }
+}
