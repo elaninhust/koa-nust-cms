@@ -1,4 +1,8 @@
 module.exports = {
+  // 设置nuxt应用的源码路径
+  srcDir: './client',
+  // 设置nuxt应用的根目录
+  rootDir: './',
   /*
   ** Headers of the page
   */

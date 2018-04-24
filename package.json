@@ -6,10 +6,9 @@
   "license": "ISC",
   "private": true,
   "scripts": {
-    "nuxt": "nuxt",
-    "dev": "export NODE_ENV=development && export PORT=2018 && node server.js",
+    "dev": "export NODE_ENV=development && export PORT=2018 && node ./server/app.js",
     "build": "nuxt build",
-    "start": "nuxt start",
+    "start": "export NODE_ENV=production && export PORT=2018 && node ./server/app.js",
     "generate": "nuxt generate",
     "lint": "eslint --ext .js,.vue --ignore-path .gitignore .",
     "precommit": "npm run lint"
