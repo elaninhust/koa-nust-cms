@@ -46,7 +46,7 @@ async function start(){
 	// 	})
 	// })
 	
-	//将express中间件转化为koa可用的中间件
+	//koaConnect将express中间件转化为koa可用的中间件
 	const nuxtRender = koaConnect(nuxt.render)
 	app.use(async (ctx, next) => {
 		ctx.status = 200 //koa默认返回404

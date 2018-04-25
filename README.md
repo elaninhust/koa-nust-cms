@@ -1,6 +1,7 @@
 # koa-nuxt-cms
 
-> Nuxt.js project
+1. 选用nuxt技术栈，减少了webpack的繁琐配置，开箱即用。
+2. nuxt既可以独立开发然后直接部署运行，也可以搭配原有的node后端比如koa等，充当一个页面渲染的引擎。
 
 ## Build Setup
 
@@ -19,4 +20,3 @@ $ npm start
 $ npm run generate
 ```
 
-For detailed explanation on how things work, checkout the [Nuxt.js docs](https://github.com/nuxt/nuxt.js).
